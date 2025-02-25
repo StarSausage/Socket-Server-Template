@@ -1,45 +1,59 @@
-
-:root {
-    --color-bg: white;
-    --color-text-main: #000000;
-    --color-primary: #FFFF00;
-    --wrapper-height: 87vh;
-    --image-max-width: 300px;
-    --image-margin: 3rem;
-    --font-family: "HK Grotesk";
-    --font-family-header: "HK Grotesk";
-  }
-  
-  
-  /* Basic page style resets */
-  * {
-    box-sizing: border-box;
-  }
-  [hidden] {
-    display: none !important;
-  }
-  
-  /* Import fonts */
-  @font-face {
-    font-family: HK Grotesk;
-    src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
-      format("opentype");
-  }
-  @font-face {
-    font-family: HK Grotesk;
-    font-weight: bold;
-    src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
-      format("opentype");
-  }
-  
   body {
-    font-family: HK Grotesk;
-    background-color: var(--color-bg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(255, 176, 185), rgb(4, 39, 65));
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
   }
-  
-  
-  /* Subheading */
+  p{
+    position: center;
+  }
+  form{
+    font-family:Arial, Helvetica, sans-serif 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color:aliceblue;
+    position: center;
+    margin: 10px 0px 10px 0px;
+  }
+  input{
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(137, 43, 226, 0.336);
+  }
+  input:hover{
+    color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(255, 255, 255, 0.459);
+
+  }
+  input:active{
+    color: aliceblue;
+  }
+  .buttons{
+    display: inline-block;
+    margin: 20px;
+
+  }
+  .buttons input{
+    background-color: white;
+    color: gray;
+    opacity: 0.54;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: gray;
+    border-style: dotted;
+  }
+  .buttons input:hover{
+    border-style: double;
+    border-color: aqua;
+  }
+  .buttons input:active{
+    background-color: brown;
+  }
   h2 {
-    color: #2800FF;
+    color: White;
   }
   
